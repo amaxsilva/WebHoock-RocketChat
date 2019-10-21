@@ -1,0 +1,18 @@
+http://localhost:3000/hooks/mrubPmoxJ75Bb9gNe/BrnxPXworveYp7QeyvHc3tPpQiFuTHN4EpBqrujqQnTdqpzR
+
+Example.
+
+{
+  "text": "Example message",
+  "attachments": [
+    {
+      "title": "Rocket.Chat",
+      "title_link": "https://rocket.chat",
+      "text": "Rocket.Chat, the best open source chat",
+      "image_url": "/images/integration-attachment-example.png",
+      "color": "#764FA5"
+    }
+  ]
+}
+ 
+curl -X POST -H 'Content-Type: application/json' --data '{"text":"Example message","attachments":[{"title":"Rocket.Chat","title_link":"https://rocket.chat","text":"Rocket.Chat, the best open source chat","image_url":"/images/integration-attachment-example.png","color":"#764FA5"}]}' http://192.168.3.61:3000/hooks/mrubPmoxJ75Bb9gNe/BrnxPXworveYp7QeyvHc3tPpQiFuTHN4EpBqrujqQnTdqpzR
